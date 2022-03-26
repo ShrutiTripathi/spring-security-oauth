@@ -1,0 +1,11 @@
+server:
+    port: 9000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user-registration
+    username: postgres
+    password: admin
+  jpa:
+    show-sql: true
+
